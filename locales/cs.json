@@ -1,0 +1,17 @@
+{
+  "code": "cs",
+  "displayName": "Čeština",
+  "strings": {
+    "page.title": "Profil jídel pro Vojtěšku",
+    "hero.title": "Alergie a preference jídla Vojtěšky",
+    "hero.subtitle": "Pro více informací najeď myší na konkrétní jídlo.",
+    "toolbar.ariaLabel": "Ovládání profilu",
+    "language.label": "Jazyk",
+    "theme.toDark": "Přepnout na tmavý režim",
+    "theme.toLight": "Přepnout na světlý režim",
+    "field.allergies": "Alergie",
+    "field.safeFoods": "Bezpečná jídla",
+    "field.dislikedFood": "Neoblíbené jídlo",
+    "common.none": "Žádné"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "code": "en",
+  "displayName": "English",
+  "strings": {
+    "page.title": "Vojteska Food Profile",
+    "hero.title": "Vojteska's Allergy and Food Preferences",
+    "hero.subtitle": "For more info place the mouse over the concrete food.",
+    "toolbar.ariaLabel": "Profile controls",
+    "language.label": "Language",
+    "theme.toDark": "Switch to Dark Mode",
+    "theme.toLight": "Switch to Light Mode",
+    "field.allergies": "Allergies",
+    "field.safeFoods": "Safe Foods",
+    "field.dislikedFood": "Disliked Food",
+    "common.none": "None"
+  }
+}

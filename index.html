@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vojteska Food Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=20260311-10" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero reveal">
+        <h1 id="hero-title">Vojteska's Allergy and Food Preferences</h1>
+        <p id="hero-subtitle" class="subtitle">
+          For more info place the mouse over the concrete food.
+        </p>
+      </header>
+
+      <section id="profile-toolbar" class="toolbar reveal delay-1" aria-label="Profile controls">
+        <div class="language-wrap">
+          <label id="language-label" class="language-label" for="language-select">
+            Language
+          </label>
+          <select id="language-select" class="language-select"></select>
+        </div>
+        <button id="theme-toggle-btn" class="theme-btn" type="button">
+          Toggle Dark Mode
+        </button>
+      </section>
+
+      <section id="people-grid" class="people-grid reveal delay-2"></section>
+
+      <template id="person-template">
+        <article class="person-card panel">
+          <div class="person-grid">
+            <section class="field">
+              <div class="section-head">
+                <span class="field-label label-allergies">Allergies</span>
+              </div>
+              <ul class="chip-list allergy-list"></ul>
+            </section>
+
+            <section class="field">
+              <div class="section-head">
+                <span class="field-label label-safe">Safe Foods</span>
+              </div>
+              <ul class="chip-list safe-list"></ul>
+            </section>
+
+            <section class="field">
+              <div class="section-head">
+                <span class="field-label label-disliked">Disliked Food</span>
+              </div>
+              <ol class="editable-list dislike-list"></ol>
+            </section>
+          </div>
+        </article>
+      </template>
+    </main>
+
+    <script src="app.js?v=20260311-10"></script>
+  </body>
+</html>
