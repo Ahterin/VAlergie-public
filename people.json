@@ -7,8 +7,8 @@
         "en": "Alcohol"
       },
       "info": {
-        "cs": "vyhýbam se mu, jak můžu, fakt je mi po něm blbě",
-        "en": "I avoid it whenever I can; it really makes me feel sick."
+        "cs": "Vyhýbám se mu, jak jen můžu, protože mi po něm bývá opravdu špatně.",
+        "en": "I avoid it whenever I can because it really makes me feel unwell."
       }
     },
     {
@@ -19,7 +19,7 @@
       },
       "info": {
         "cs": "Konkrétní spouštěč z lilkovitých rostlin.",
-        "en": "Specific trigger from the nightshade group."
+        "en": "A specific trigger within the nightshade family."
       }
     },
     {
@@ -29,8 +29,8 @@
         "en": "Grapes"
       },
       "info": {
-        "cs": "rozinky taky ne",
-        "en": "Raisins too"
+        "cs": "Nevadí jen čerstvé hrozny, ale ani rozinky.",
+        "en": "This includes not only fresh grapes, but also raisins."
       }
     },
     {
@@ -40,8 +40,8 @@
         "en": "Apples"
       },
       "info": {
-        "cs": "Tepelně upravené nevadí.",
-        "en": "Heat-treated apples are tolerated."
+        "cs": "Tepelně upravená jablka obvykle nevadí.",
+        "en": "Cooked apples are usually tolerated."
       }
     },
     {
@@ -51,8 +51,8 @@
         "en": "Gluten"
       },
       "info": {
-        "cs": "Vyhýbat se pšenici, žitu a ječmeni; může způsobit trávicí potíže.",
-        "en": "Avoid wheat, rye, and barley; may trigger digestive issues."
+        "cs": "Je potřeba vyhýbat se pšenici, žitu a ječmeni.",
+        "en": "Wheat, rye, and barley should be avoided."
       }
     },
     {
@@ -63,7 +63,7 @@
       },
       "info": {
         "cs": "Konkrétní spouštěč z lilkovitých rostlin.",
-        "en": "Specific trigger from the nightshade group."
+        "en": "A specific trigger within the nightshade family."
       }
     },
     {
@@ -73,8 +73,8 @@
         "en": "Nightshade plants"
       },
       "info": {
-        "cs": "Obecná citlivost na část lilkovitých (rajčata, papriky, lilek, brambory).",
-        "en": "General sensitivity to some nightshades (tomatoes, peppers, eggplant, potatoes)."
+        "cs": "Obecná citlivost na část lilkovitých rostlin, například rajčata, papriky, lilek a brambory.",
+        "en": "General sensitivity to some nightshade plants, such as tomatoes, peppers, eggplant, and potatoes."
       }
     },
     {
@@ -84,19 +84,30 @@
         "en": "Nuts"
       },
       "info": {
-        "cs": "Alergie na vybrané druhy; tolerované výjimky jsou uvedeny v bezpečných jídlech.",
-        "en": "Allergy applies to selected nut types; tolerated exceptions are listed in safe foods."
+        "cs": "Alergie se týká vybraných druhů; tolerované výjimky jsou uvedené v bezpečných jídlech.",
+        "en": "The allergy applies to selected types; tolerated exceptions are listed under safe foods."
       }
     },
     {
-      "id": "papriky",
+      "id": "paprika",
       "name": {
-        "cs": "papriky",
-        "en": "Peppers"
+        "cs": "paprika",
+        "en": "Paprika pepper"
       },
       "info": {
-        "cs": "Konkrétní spouštěč z lilkovitých rostlin.",
-        "en": "Specific trigger from the nightshade group."
+        "cs": "Konkrétní spouštěč z lilkovitých rostlin. Vadí i jako součást koření.",
+        "en": "A specific trigger within the nightshade family. It is also a problem as part of seasoning."
+      }
+    },
+    {
+      "id": "chilli",
+      "name": {
+        "cs": "chilli",
+        "en": "Chili peppers"
+      },
+      "info": {
+        "cs": "Je potřeba se mu vyhýbat, a to i jako součásti koření nebo pikantních směsí.",
+        "en": "Should be avoided, including when it is part of seasoning or spicy spice blends."
       }
     },
     {
@@ -107,7 +118,62 @@
       },
       "info": {
         "cs": "Konkrétní spouštěč z lilkovitých rostlin.",
-        "en": "Specific trigger from the nightshade group."
+        "en": "A specific trigger within the nightshade family."
+      }
+    },
+    {
+      "id": "mandle",
+      "name": {
+        "cs": "mandle",
+        "en": "Almonds"
+      },
+      "info": {
+        "cs": "Patří mezi problematické ořechy a je potřeba se jim vyhýbat.",
+        "en": "These are among the problematic nuts and should be avoided."
+      }
+    },
+    {
+      "id": "arasidy",
+      "name": {
+        "cs": "arašídy",
+        "en": "Peanuts"
+      },
+      "info": {
+        "cs": "Je potřeba se jim vyhýbat.",
+        "en": "These should be avoided."
+      }
+    },
+    {
+      "id": "mrkev",
+      "name": {
+        "cs": "mrkev",
+        "en": "Carrots"
+      },
+      "info": {
+        "cs": "Syrová mrkev vadí, ale tepelně upravená bývá v pořádku.",
+        "en": "Raw carrots are a problem, but cooked carrots are usually tolerated."
+      }
+    },
+    {
+      "id": "soja",
+      "name": {
+        "cs": "soja",
+        "en": "Soy"
+      },
+      "info": {
+        "cs": "Je potřeba se jí vyhýbat.",
+        "en": "Soy should be avoided."
+      }
+    },
+    {
+      "id": "celer",
+      "name": {
+        "cs": "celer",
+        "en": "Celery"
+      },
+      "info": {
+        "cs": "Syrový celer vadí; tepelně opracovaný je pravděpodobně v pořádku, ale s opatrností.",
+        "en": "Raw celery is a problem; cooked celery is probably tolerated, but with caution."
       }
     }
   ],
@@ -120,25 +186,25 @@
       },
       "info": {
         "cs": "Tolerovaná výjimka z obecné alergie na ořechy.",
-        "en": "Tolerated exception within the broader nut allergy profile."
+        "en": "A tolerated exception within the broader nut allergy profile."
       }
     },
     {
       "id": "pistacie",
       "name": {
-        "cs": "pistacie",
+        "cs": "pistácie",
         "en": "Pistachios"
       },
       "info": {
         "cs": "Tolerovaná výjimka z obecné alergie na ořechy.",
-        "en": "Tolerated exception within the broader nut allergy profile."
+        "en": "A tolerated exception within the broader nut allergy profile."
       }
     },
     {
       "id": "tvargle",
       "name": {
         "cs": "tvargle",
-        "en": "The Smelly Moravian Cheese Delicacy"
+        "en": "Olomouc cheese"
       },
       "info": {
         "cs": "Bezpečné jídlo podle aktuální zkušenosti.",
@@ -153,7 +219,84 @@
       },
       "info": {
         "cs": "Tolerovaná výjimka z obecné alergie na ořechy.",
-        "en": "Tolerated exception within the broader nut allergy profile."
+        "en": "A tolerated exception within the broader nut allergy profile."
+      }
+    },
+    {
+      "id": "boruvky",
+      "name": {
+        "cs": "borůvky",
+        "en": "Blueberries"
+      },
+      "info": {
+        "cs": "Bezpečné podle aktuální zkušenosti.",
+        "en": "Considered safe based on current experience."
+      }
+    },
+    {
+      "id": "maliny",
+      "name": {
+        "cs": "maliny",
+        "en": "Raspberries"
+      },
+      "info": {
+        "cs": "V malém množství bývají v pořádku.",
+        "en": "Usually tolerated in small amounts."
+      }
+    },
+    {
+      "id": "mlecne_produkty",
+      "name": {
+        "cs": "mléčné produkty",
+        "en": "Dairy products"
+      },
+      "info": {
+        "cs": "Bezpečné podle aktuální zkušenosti.",
+        "en": "Considered safe based on current experience."
+      }
+    },
+    {
+      "id": "vejce",
+      "name": {
+        "cs": "vejce",
+        "en": "Eggs"
+      },
+      "info": {
+        "cs": "Bezpečné podle aktuální zkušenosti.",
+        "en": "Considered safe based on current experience."
+      }
+    },
+    {
+      "id": "pohanka",
+      "name": {
+        "cs": "pohanka",
+        "en": "Buckwheat"
+      },
+      "info": {
+        "cs": "Bezpečné podle aktuální zkušenosti.",
+        "en": "Considered safe based on current experience."
+      }
+    },
+    {
+      "id": "cirok",
+      "name": {
+        "cs": "čirok",
+        "en": "Sorghum"
+      },
+      "info": {
+        "cs": "Bezpečné podle aktuální zkušenosti.",
+        "en": "Considered safe based on current experience."
+      }
+    },
+    {
+      "id": "cizrna",
+      "name": {
+        "cs": "cizrna",
+        "en": "Chickpeas"
+      },
+      "info": {
+        "cs": "Bezpečné podle aktuální zkušenosti.",
+        "en": "Considered safe based on current experience."
       }
     }
   ],
@@ -165,8 +308,8 @@
         "en": "Arugula"
       },
       "info": {
-        "cs": "Nejde o alergii, jen chuťová neoblíbenost.",
-        "en": "Not an allergy, only a taste dislike."
+        "cs": "Nejde o alergii, jen o chuťovou neoblíbenost.",
+        "en": "Not an allergy, just a taste dislike."
       }
     }
   ]
